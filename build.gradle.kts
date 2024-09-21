@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "com.rdktechnologies"
-version = "0.0.1-SNAPSHOT"
+version = ""
 
 java {
 	toolchain {
@@ -31,6 +31,7 @@ dependencies {
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+        implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.2.0")
 }
 
 kotlin {
