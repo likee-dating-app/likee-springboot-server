@@ -15,7 +15,7 @@ class BackendTemplateApplication{
 
 	@GetMapping("/hello")
 	fun  hello(@RequestParam(value = "name", defaultValue = "World") name:String):String {
-		return String.format("Hello %s!", name);
+		return String.format("Hello brother %s!", name);
 	}
 }
 
