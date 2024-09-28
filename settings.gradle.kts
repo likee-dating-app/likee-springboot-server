@@ -4,4 +4,4 @@ pluginManagement {
 		gradlePluginPortal()
 	}
 }
-rootProject.name = "BackendTemplate"
+rootProject.name = "LikeeDatingApp"
